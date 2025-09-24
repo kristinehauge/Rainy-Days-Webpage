@@ -1,2 +1,2 @@
-# Rainy Days Webpage
+# Rainy Days
 HTML and CSS Course Assignment
