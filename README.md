@@ -1,2 +1,2 @@
-# Rainy Days Webpage
-Root folder for HTML and CSS Course Assignment
+# Rainy Days
+HTML and CSS Course Assignment
