@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(250, 254, 255)
+    background-color: FAFEFF;
 }
 
 nav, #menu-checkbox {
@@ -20,6 +20,31 @@ nav {
 
 nav a {
     display: block;
+}
+
+.top-header {
+    background-color: #EFF3F4;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.logo {
+    width: auto;
+    height: 60px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.icon {
+    background-color: #CDD7D9;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+
 }
 
 h1 {
