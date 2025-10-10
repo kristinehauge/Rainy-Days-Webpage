@@ -1,6 +1,27 @@
 body {
     background-color: rgb(250, 254, 255)
 }
+
+nav, #menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    position: absolute;
+}
+
+nav a {
+    display: block;
+}
+
 h1 {
     font-size: 48px;
     color: #0A3641;
@@ -8,3 +29,4 @@ h1 {
 
 img {
     width: 300px;
+}
