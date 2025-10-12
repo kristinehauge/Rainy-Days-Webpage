@@ -1,6 +1,57 @@
 body {
-    background-color: rgb(250, 254, 255)
+    background-color: FAFEFF;
 }
+
+nav, #menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    position: absolute;
+}
+
+nav a {
+    display: block;
+}
+
+.top-header {
+    background-color: #EFF3F4;
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo {
+    width: auto;
+    height: 8vw;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    background-color: #CDD7D9;
+    height: 5vw;
+    width: 5vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222222;
+    font-size: 1rem;
+}
+
 h1 {
     font-size: 48px;
     color: #0A3641;
