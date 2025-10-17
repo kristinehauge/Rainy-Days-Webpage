@@ -80,7 +80,8 @@
           <button>L</button>
           <button>XL</button>
           <hr />
-          <a href="/pages/shopping-bag.html">Add to cart</a>
+          <button class="addCart">Add to Cart</button>
+          <div id="overlay"></div>
           <h4>Lightweight. Breathable. Unstoppable.</h4>
           <p>
             Our wind jacket is built to keep you protected without weighing you
@@ -89,6 +90,15 @@
           </p>
           <p>read more</p>
           <!--make it look like a link-->
+        </div>
+        <div class="cartTab">
+          <!--transition in CSS-->
+          <h1>Cart</h1>
+          <div class="listCart"></div>
+          <div class="btn">
+            <button class="close">Close</button>
+            <a href="/pages/checkout.html" class="checkout">Go to checkout</a>
+          </div>
         </div>
       </section>
     </main>
