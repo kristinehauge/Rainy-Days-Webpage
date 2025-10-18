@@ -1,5 +1,5 @@
 body {
-    background-color: FAFEFF;
+    background-color: #FAFEFF;
     margin: 0;
 }
 
@@ -21,6 +21,10 @@ nav {
 
 nav a {
     display: block;
+}
+
+header a {
+    color: #293035;
 }
 
 .top-header {
@@ -58,3 +62,30 @@ h1 {
     font-size: 48px;
     color: #0A3641;
 }
+
+.cta {
+    background-color: #B4651B;
+    color: #fff;
+
+}
+
+.explore-button {
+    border: 2px solid #B4651B;
+    color: #fff;
+    background-color: rgb(80, 150, 255);
+}
+
+footer {
+    background-color: #CDD7D9;
+    color: #293035;
+}
+
+/* jackets page */
+
+/* wind jacket page */
+
+/* checkout page */
+
+/* payment page */
+
+/* confirmation page */

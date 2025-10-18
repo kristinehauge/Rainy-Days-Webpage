@@ -8,7 +8,7 @@
       content="Get active wear for any adventure from Rainy Days"
     />
     <title>Rainy Days | Wind Jacket</title>
-    <link href="/CSS/styles.css" rel="stylesheet" />
+    <link href="../CSS/styles.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/c195e250fa.js"
       crossorigin="anonymous"
@@ -80,7 +80,7 @@
           <button>L</button>
           <button>XL</button>
           <hr />
-          <button class="addCart">Add to Cart</button>
+          <a href="/pages/checkout.html" class="cta">Add to cart</a>
           <div id="overlay"></div>
           <h4>Lightweight. Breathable. Unstoppable.</h4>
           <p>
@@ -97,11 +97,45 @@
           <div class="listCart"></div>
           <div class="btn">
             <button class="close">Close</button>
-            <a href="/pages/checkout.html" class="checkout">Go to checkout</a>
+            <a href="/pages/checkout.html" class="cta checkout"
+              >Go to checkout</a
+            >
           </div>
         </div>
       </section>
     </main>
-    <footer>Copyright &copy</footer>
+    <footer>
+      <div>
+        <a href="/index.html"
+          ><img src="/images/RainyDays_Logo.png" alt="Rainy Days Logo"
+        /></a>
+      </div>
+      <div class="socials">
+        <h2>follow rainydays</h2>
+        <!-- add icon links here-->
+      </div>
+      <div class="customer-service-links">
+        <h3>Customer Service</h3>
+        <!-- add links here-->
+      </div>
+      <div class="about-links">
+        <h3>About RainyDays</h3>
+        <!-- add links here-->
+      </div>
+      <div class="info-links">
+        <h3>Information</h3>
+        <!-- add links here-->
+      </div>
+      <!--add a divider-->
+      <div class="sub-newsletter">
+        <h3>subscribe to our newsletter</h3>
+        <div class="sub-nes-button">
+          <input type="email" />
+          <!--look into how to get email example in the input box-->
+          <button>Submit</button>
+        </div>
+      </div>
+      Copyright &copy
+    </footer>
   </body>
 </html>
