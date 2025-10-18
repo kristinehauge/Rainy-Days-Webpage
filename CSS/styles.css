@@ -11,8 +11,12 @@ nav, #menu-checkbox {
     display: block;
 }
 
-header {
+.top-header {
     position: relative;
+}
+
+.sub-header {
+    background-color: #CDD7D9;
 }
 
 nav {
