@@ -1,7 +1,54 @@
+
+
 body {
     background-color: #FAFEFF;
     margin: 0;
+    font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
 }
+
+/* Fonts */
+.hero-headline {
+    font-family: "Roboto Serif", Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.hero-text {
+    font-family: "roboto", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+.cta-text {
+    font-family: "roboto", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+.sub-header-text {
+    font-family: "roboto", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.capital-letter {
+    text-transform: uppercase;
+}
+
+.price {
+    font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+.follow-rd {
+    font-family: "Roboto", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+/* End Fonts */
 
 nav, #menu-checkbox {
     display: none;
