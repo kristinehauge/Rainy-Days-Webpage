@@ -57,16 +57,18 @@ h2 {
 }
 /* End Fonts */
 
-nav, #menu-checkbox {
+/* Header */
+/* nav, #menu-checkbox {
     display: none;
-}
+} */
 
-#menu-checkbox:checked ~ nav {
+/* #menu-checkbox:checked ~ nav {
     display: block;
-}
+} */
 
 .top-header {
-    position: relative;
+    position: sticky;
+    top: 0;
 }
 
 .sub-header {
@@ -74,7 +76,7 @@ nav, #menu-checkbox {
 }
 
 nav {
-    position: absolute;
+    position: ;
 }
 
 nav a {
@@ -115,6 +117,7 @@ header a {
     color: #222222;
     font-size: 1rem;
 }
+    */
 
 /* Homepage */
 .hero-section {
@@ -187,7 +190,10 @@ footer {
 /* checkout page */
 
 /* payment page */
-
+input {
+    border: 1px solid rgb(10 54 65 / 50%);
+    border-radius: 3px;
+}
 
 /* confirmation page */
 .success {

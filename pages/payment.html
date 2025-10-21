@@ -62,56 +62,68 @@
           <p>Do you already have an account?</p>
           <a href="">Log In</a>
         </div>
-        <form>
+        <form method="post">
           <label for="first-name">First name</label>
-          <input type="text" id="first-name" />
+          <input type="text" id="first-name" name="first-name" />
           <label for="last-name">Last name</label>
-          <input type="text" id="last-name" />
+          <input type="text" id="last-name" name="last-name" />
           <label for="country">Country</label>
-          <input type="text" id="country" />
+          <input type="text" id="country" name="country" />
           <label for="phone-number">Phone number</label>
-          <input type="text" id="phone-number" />
+          <input type="text" id="phone-number" name="phone-number" />
           <label for="street-name">Street name</label>
-          <input type="text" id="street-name" />
+          <input type="text" id="street-name" name="street-name" />
           <label for="house-nr">House Nr.</label>
-          <input type="text" id="house-nr" />
+          <input type="text" id="house-nr" name="house-nr" />
           <label for="apartment">Apartment, suite, etc.</label>
-          <input type="text" id="apartment" />
+          <input type="text" id="apartment" name="apartment-nr" />
           <label for="zip-code">Zip Code</label>
-          <input type="text" id="zip-code" />
+          <input type="text" id="zip-code" name="zip-code" />
           <label for="city">City</label>
-          <input type="text" id="city" />
+          <input type="text" id="city" name="city" />
           <label for="provience">Provience</label>
-          <input type="text" id="provience" />
+          <input type="text" id="provience" name="provience" />
         </form>
         <div>
           <h1>Email address</h1>
           <h2>You will receive order confirmation and updates</h2>
-          <form>
+          <form method="post">
             <label for="email">name@example.com</label>
-            <input type="email" id="email" />
-            <input type="checkbox" id="newsletter" />
-            <label for="newsletter"
+            <input type="email" id="email" name="email" />
+            <input
+              type="checkbox"
+              id="email-newsletter"
+              name="email-newsletter"
+            />
+            <label for="email-newsletter"
               >Sign up for our newsletter and exclusive offers</label
             >
           </form>
         </div>
         <div>
           <h1>Shipping</h1>
-          <form>
-            <input type="radio" id="standard-shipping" />
+          <form method="post">
+            <input
+              type="radio"
+              id="standard-shipping"
+              name="standard-shipping"
+            />
             <label for="standard-shipping">Standard</label>
             <p>Free</p>
             <p>3-6 business days</p>
           </form>
-          <form>
-            <input type="radio" id="express-shipping" />
+          <form method="post">
+            <input type="radio" id="express-shipping" name="express-shipping" />
             <label for="express-shipping">Express</label>
             <p>$17.00</p>
             <p>2-4 business days</p>
-          </form>
-          <form>
-            <input type="radio" id="priority-shipping" />
+          </form method="post">
+          <form method="post">
+            <input
+              type="radio"
+              id="priority-shipping"
+              name="priority-shipping"
+            />
             <label for="priority-shipping">Priority</label>
             <p>$25.00</p>
             <p>1-2 business days</p>
@@ -119,20 +131,20 @@
         </div>
         <div>
           <h1>Payment Method</h1>
-          <form>
-            <input type="radio" id="paypal" />
+          <form method="post">
+            <input type="radio" id="paypal" name="paypal" />
             <label for="paypal">Paypal</label>
-            <input type="radio" id="card" />
+            <input type="radio" id="card" name="card" />
             <label for="card">Debit or Credit Card</label>
             <hr />
             <label for="card-name">Cardholder name</label>
-            <input type="text" id="card-name" />
+            <input type="text" id="card-name" name="card-name" />
             <label for="card-nr">Card number</label>
-            <input type="text" id="card-nr" />
+            <input type="text" id="card-nr" name="card-nr" />
             <label for="cvv">CVV</label>
-            <input type="text" id="cvv" />
+            <input type="text" id="cvv" name="cvv" />
             <label for="expiry-date">Expiry Date</label>
-            <input type="month" id="expiry-date" />
+            <input type="month" id="expiry-date" name="expiry-date" />
           </form>
         </div>
       </section>
