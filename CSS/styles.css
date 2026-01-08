@@ -2,3 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
+#hamburger-menu {
+    display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
+
+nav {
+    display: none;
+}
