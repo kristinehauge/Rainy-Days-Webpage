@@ -19,13 +19,13 @@ nav {
     top: 112px;
     left: 0;
     width: 100%;
-    background-color: rgba(205, 215, 217, 0.5);
+    background-color: rgba(10, 54, 65, 0.8);
     z-index: 1000;
 }
 
 nav a {
     text-decoration: none;
-    color: #222222;
+    color: #EFF3F4;
     font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2em;
 }
@@ -75,8 +75,31 @@ i {
     color: #0A3641;
 }
 
-/* Home Page */
+/* Links */
+.cta {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(180, 101, 27, 1);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5em 1em;
+    min-width: 140px;
+    border-radius: 2px;
+}
 
+a {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Home Page */
+.hero {
+    background: URL(/images/man-on-mountaintop.jpg) no-repeat;
+    background-position: 10% 70%;
+    min-height: 20vh;
+    background-size: cover;
+    width: 100%;
+}
+
+/* Media Queries */
 @media (min-width: 600px) {
     nav {
         background-color: rgba(205, 215, 217);
