@@ -15,7 +15,7 @@
 
 nav {
   display: none;
-  position: fixed;
+  position: absolute;
   top: 112px;
   left: 0;
   width: 100%;
@@ -165,7 +165,7 @@ hr {
   margin: 10px;
   padding: 20px;
   height: 20vh;
-  /*min-width: 100px;*/
+  min-width: 100px;
 }
 
 .featured__card img {
