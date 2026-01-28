@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,22 +9,53 @@
       src="https://kit.fontawesome.com/c195e250fa.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c195e250fa.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
-      <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
-      <input type="checkbox" id="hamburger-menu" />
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="jackets.html">Shop All</a></li>
-          <li><a href="jackets.html">Women</a></li>
-          <li><a href="jackets.html">Men</a></li>
-          <li><a href="wind-jacket.html">Best Sellers</a></li>
-          <li><a href="jackets.html">New Arrivals</a></li>
-          <li><a href="jackets.html">Activities</a></li>
-        </ul>
-      </nav>
+      <div class="header-bar">
+        <label for="hamburger-menu"><i class="fas fa-bars nav-bar"></i></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <nav>
+          <ul>
+            <!-- <li><a href="index.html">Home</a></li> -->
+            <li><a href="jackets.html">Shop All</a></li>
+            <li><a href="jackets.html">Women</a></li>
+            <li><a href="jackets.html">Men</a></li>
+            <li><a href="wind-jacket.html">Best Sellers</a></li>
+            <li><a href="jackets.html">New Arrivals</a></li>
+            <li><a href="jackets.html">Activities</a></li>
+          </ul>
+        </nav>
+        <div class="icon">
+          <label for="search"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></label>
+        </div>
+        <div>
+          <a href="index.html"
+            ><img
+              src="../images/RainyDays_Logo.png"
+              class="logo"
+              alt="Rainy Days Logo"
+          /></a>
+        </div>
+        <div class="icon">
+          <label for="heart"><i class="fa-regular fa-heart"></i></label>
+        </div>
+        <div class="icon">
+          <label for="cart"><i class="fa-solid fa-cart-shopping"></i></label>
+        </div>
+      </div>
     </header>
     <main></main>
     <footer>Copyright &copy; 2026 Rainy Days</footer>
