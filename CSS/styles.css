@@ -101,6 +101,16 @@ a {
   border-radius: 2px;
 }
 
+.nav-links {
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #222;
+}
+
 /* Home Page */
 .hero {
   background:
@@ -161,6 +171,7 @@ hr {
 .featured {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   max-width: 1000px;
   margin: 20px auto;
 }

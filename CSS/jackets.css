@@ -17,3 +17,8 @@
   text-align: center;
   padding: 1em 0.5em;
 }
+
+form {
+  max-width: 1000px;
+  margin: 20px auto;
+}
