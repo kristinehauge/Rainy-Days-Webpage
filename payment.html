@@ -1,14 +1,198 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rainy Days | Payment</title>
-    <link href="CSS/styles.css" rel="stylesheet" />
+    <title>Rainy Days | Wind Jacket</title>
+    <link href="/css/styles.css" rel="stylesheet" />
+    <link href="/css/payment.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/c195e250fa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c195e250fa.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer>Copyright &copy; 2026 Rainy Days</footer>
+    <header>
+      <div class="header-bar">
+        <label for="hamburger-menu"><i class="fas fa-bars nav-bar"></i></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <nav>
+          <ul>
+            <!-- <li><a href="index.html">Home</a></li> -->
+            <li><a href="jackets.html">Shop All</a></li>
+            <li><a href="jackets.html">Women</a></li>
+            <li><a href="jackets.html">Men</a></li>
+            <li><a href="wind-jacket.html">Best Sellers</a></li>
+            <li><a href="jackets.html">New Arrivals</a></li>
+            <li><a href="jackets.html">Activities</a></li>
+          </ul>
+        </nav>
+        <div class="icon">
+          <label for="search"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></label>
+        </div>
+        <div>
+          <a href="index.html"
+            ><img
+              src="../images/RainyDays_Logo.png"
+              class="logo"
+              alt="Rainy Days Logo"
+          /></a>
+        </div>
+        <div class="icon">
+          <label for="heart"><i class="fa-regular fa-heart"></i></label>
+        </div>
+        <div class="icon">
+          <label for="cart"><i class="fa-solid fa-cart-shopping"></i></label>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1>Checkout</h1>
+      <section>
+        <div class="delivery-info">
+          <h2>Delivery</h2>
+          <p>Do you already have an account?</p>
+          <a href="#">Log in</a>
+          <form>
+            <label for="first-name">First name</label>
+            <input type="text" id="first-name" />
+            <label for="last-name">Last name</label>
+            <input type="text" id="last-name" />
+            <label for="country">Country</label>
+            <input type="text" id="country" />
+            <label for="phone-number">Phone number</label>
+            <input type="text" id="phone-number" />
+            <label for="street.name">Street name</label>
+            <input type="text" id="street-name" />
+            <label for="house-nr">House Nr.</label>
+            <input type="number" id="house-nr" />
+            <label for="apartment-etc>"
+              >Apartment, suite, etc. (optional)</label
+            >
+            <input type="text" id="apartment-etc" />
+            <label for="zip-code">Zip code</label>
+            <input type="number" id="zip-code" />
+            <label for="city">City</label>
+            <input type="text" id="city" />
+            <label for="province">Province</label>
+            <input type="text" id="province" />
+          </form>
+        </div>
+        <div class="email">
+          <h2>Email address</h2>
+          <p>You will receive order confirmation and updates</p>
+          <label for="email">Email address</label>
+          <input type="email" id="email" />
+          <input type="checkbox" id="newsletter" />
+          <label for="newsletter"
+            >Sign up for our newsletter and exclusive offers</label
+          >
+        </div>
+        <div class="Shipping-info">
+          <h2>Shipping</h2>
+          <div>
+            <input type="radio" id="standard" />
+            <label for="standard"
+              >Standard <spand>Free</spand>
+              <p>Delivery in 3-6 business days</p></label
+            >
+          </div>
+          <div>
+            <input type="radio" id="express" />
+            <label for="express"
+              >Express <spand>$17.00</spand>
+              <p>Delivery in 2-4 business days</p></label
+            >
+          </div>
+          <div>
+            <input type="radio" id="priority" />
+            <label for="priority"
+              >Priority <spand>$25.00</spand>
+              <p>Delivery in 1-2 business days</p></label
+            >
+          </div>
+        </div>
+        <div class="payment-info">
+          <h2>Payment</h2>
+          <div>
+            <input type="radio" id="paypal" />
+            <label for="paypal">PayPal</label>
+          </div>
+          <div>
+            <input type="radio" id="card" />
+            <label for="card">Debit or Credit Card</label>
+            <hr />
+            <label for="card-name">Cardholder Name</label>
+            <input type="text" id="card-name" />
+            <label for="card-number">Card Number</label>
+            <input type="number" id="card-number" />
+            <label for="cvv">CVV</label>
+            <input type="number" id="cvv" />
+            <label for="expiry-date">Expiry Date</label>
+            <input type="number" id="expiry-date" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>Order Summary</h2>
+        <div class="">
+          <img
+            class="featured__img"
+            src="products/RainyDays_wind-jacket.webp"
+            alt="Rainy Days Black Wind Jacket"
+          />
+          <h3>Wind Jacket</h3>
+          <h4>Item: 001 / Black / M</h4>
+          <h4>QTY: 1 @ $150.00</h4>
+        </div>
+        <hr />
+        <div>
+          <h3>Subtotal</h3>
+          <h3>$150.00</h3>
+          <h3>Shipping</h3>
+          <h3>Free</h3>
+          <p>VAT and customs costs are included</p>
+        </div>
+        <hr />
+        <div>
+          <h3>Total</h3>
+          <h3>$150.00</h3>
+        </div>
+        <a href="confirmation.html" class="cta cta-large">Place order</a>
+      </section>
+    </main>
+    <footer>
+      <section class="footer-content">
+        <div>
+          <a href="index.html"
+            ><img
+              src="../images/RainyDays_Logo.png"
+              class="logo"
+              alt="Rainy Days Logo"
+          /></a>
+        </div>
+        <div class="footer-content__links">
+          <h1>Follow Rainydays</h1>
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-square-linkedin"></i>
+          <i class="fa-brands fa-square-youtube"></i>
+          <i class="fa-brands fa-tiktok"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+        </div>
+      </section>
+      Copyright &copy; 2026 Rainy Days
+    </footer>
   </body>
 </html>
