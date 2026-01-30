@@ -87,6 +87,13 @@ i {
   border-radius: 2px;
 }
 
+.cta-large {
+  padding: 1em 5em;
+  margin: 10px 10px;
+  display: block;
+  
+}
+
 a {
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
