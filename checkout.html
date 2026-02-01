@@ -59,34 +59,48 @@
       </div>
     </header>
     <main>
-      <h1>Shopping Bag</h1>
-      <section>
-        <div>
+      <div class="page-title">
+        <h1>Shopping Bag</h1>
+      </div>
+      <section class="nav-links">
+        <a href="/index.html">Home > </a>
+        <a href="jackets.html">Jackets ></a>
+        <a href="wind-jacket.html">Wind Jacket</a>
+      </section>
+      <section class="shopping-bag__container">
+        <div class="grid-col-span-3">
           <h2>Shopping Bag - 1 Items</h2>
           <hr />
-          <div class="featured__img">
-            <a href="wind-jacket.html"
-              ><img
-                src="products/RainyDays_wind-jacket.webp"
-                alt="Rainy Days Black Wind Jacket"
-            /></a>
-          </div>
+        </div>
+        <div class="featured__img">
+          <a href="wind-jacket.html"
+            ><img
+              src="products/RainyDays_wind-jacket.webp"
+              alt="Rainy Days Black Wind Jacket"
+          /></a>
+        </div>
+        <div class="shopping-bag__info">
           <h3>Wind Jacket</h3>
           <h4>Size: <span>Medium</span></h4>
           <h4>Colour: <span>Black</span></h4>
           <h5>$150.00</h5>
+        </div>
+        <div class="shopping-bag__icons">
           <i class="fa-regular fa-trash-can"></i>
-          <!-- Button for increasing and decreasing amount -->
+          <div class="add-remove">
+            <i class="fa-solid fa-minus"></i>
+            <span>1</span>
+            <i class="fa-solid fa-plus"></i>
+          </div>
         </div>
-        <div>
-          <a href="jackets.html"
-            ><i class="fa-solid fa-arrow-left"></i>Return to shopping</a
-          >
-        </div>
+      </section>
+      <section class="payment-summary__container">
         <div>
           <h2>Payment Summary</h2>
           <hr />
-          <h3>Subtotal</h3>
+        </div>
+        <div class="payment-summary__info">
+          <h3>Subtotal<span>$150.00</span></h3>
           <h3>$150.00</h3>
           <h3>Estimated shipping</h3>
           <h3>free</h3>
@@ -94,12 +108,19 @@
           <p>Do you have a promo code?</p>
           <i class="fa-solid fa-plus"></i>
           <hr />
+        </div>
+        <div>
           <h2>Estimated Total</h2>
           <h2>$150.00</h2>
           <p>VAT and customs costs are included</p>
           <a href="payment.html" class="cta cta-large">Continue checkout</a>
         </div>
       </section>
+      <div>
+        <a href="jackets.html"
+          ><i class="fa-solid fa-arrow-left"></i>Return to shopping</a
+        >
+      </div>
     </main>
     <footer>
       <section class="footer-content">
