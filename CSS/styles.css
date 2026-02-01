@@ -88,10 +88,10 @@ i {
 }
 
 .cta-large {
-  padding: 1em 5em;
+  padding: 1em 3em;
   margin: 10px 10px;
   display: block;
-  
+  font-weight: 700;
 }
 
 a {
@@ -110,7 +110,8 @@ a {
 
 .nav-links {
     max-width: 1000px;
-    margin: 10px auto;
+    margin: 10px 20px;
+    margin-bottom: 20px;
 }
 
 .nav-links a {

@@ -85,7 +85,7 @@ main {
 .payment-summary__container {
     display: grid;
     gap: 0.5rem;
-    grid-template-rows: repeat (3, 1fr);
+    grid-template-rows: repeat (4);
     margin: 20px 20px;
     background-color: #EFF3F4;
     border-radius: 2px;
@@ -100,5 +100,51 @@ main {
 .payment-summary__info {
     margin: 0 10px;
     font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 100;
+    font-weight: 400;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+ p {
+    font-size: 0.6rem;
+    font-weight: 400;
+}
+
+.promo-code {
+    font-size: 0.8rem;
+}
+
+.grid-col-1,
+.grid-col-2 {
+    margin: 15px 0;
+}
+
+.grid-col-2 {
+    text-align: right;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.grid-col-span-2 {
+    grid-column: span 2;
+}
+
+.payment-summary__total {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 0 10px;
+}
+
+.return {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 50px 0;
+}
+
+.return a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
 }

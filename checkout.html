@@ -100,23 +100,31 @@
           <hr />
         </div>
         <div class="payment-summary__info">
-          <h3>Subtotal<span>$150.00</span></h3>
-          <h3>$150.00</h3>
-          <h3>Estimated shipping</h3>
-          <h3>free</h3>
-          <p>Estimated Delivery in 2 - 4 days</p>
-          <p>Do you have a promo code?</p>
-          <i class="fa-solid fa-plus"></i>
-          <hr />
+          <div class="grid-col-1">
+            <h3>Subtotal</h3>
+            <h3>Estimated shipping</h3>
+            <p>Estimated Delivery in 2 - 4 days</p>
+            <p class="promo-code">Do you have a promo code?</p>
+          </div>
+          <div class="grid-col-2">
+            <h3>$150.00</h3>
+            <h3>free</h3>
+            <i class="fa-solid fa-plus promo-code"></i>
+          </div>
         </div>
-        <div>
-          <h2>Estimated Total</h2>
-          <h2>$150.00</h2>
-          <p>VAT and customs costs are included</p>
-          <a href="payment.html" class="cta cta-large">Continue checkout</a>
+        <hr />
+        <div class="payment-summary__total">
+          <div class="grid-col-1">
+            <h3>Estimated Total</h2>
+            <p>VAT and customs costs are included</p>
+          </div>
+          <h3 class="grid-col-2">$150.00</h2>
+          <a href="payment.html" class="cta cta-large grid-col-span-2"
+            >Continue checkout</a
+          >
         </div>
       </section>
-      <div>
+      <div class="return">
         <a href="jackets.html"
           ><i class="fa-solid fa-arrow-left"></i>Return to shopping</a
         >
