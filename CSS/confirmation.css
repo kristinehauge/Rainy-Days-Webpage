@@ -1,0 +1,44 @@
+.confirmation-hero {
+    background: 
+    linear-gradient(to top, rgba(10, 54, 65, 0.50), transparent),
+    url(/images/made-it.jpg) no-repeat;
+    background-position: 35% 45%;
+    background-size:cover;
+    min-height: 10vh;
+    width: 100%;
+    color: rgba(239, 243, 244, 1);
+    text-align: center;
+}
+
+.confirmation-info__header {
+    background-color: rgba(10, 54, 65, 0.90);
+    color: rgba(239, 243, 244, 1);
+    text-align: center;
+}
+
+.confirmation-info p {
+    font-family: "Nunito";
+    font-weight: 400;
+    text-align: center;
+}
+
+.order-summary {
+    background-color: #EFF3F4;
+    border-radius: 2px;
+    border: 1px solid rgba(10, 54, 65, 0.10);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.order-summary__img {
+    display: block;
+    border: 1px solid #cdd7d9;
+    background-color: rgba(10, 54, 65, 0.1);
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(34, 34, 34, 0.1);
+}
+
+.order-summary__img img {
+    width: 100%;
+}

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rainy Days | Wind Jacket</title>
     <link href="/css/styles.css" rel="stylesheet" />
-    <link href="/css/payment.css" rel="stylesheet" />
+    <link href="/css/confirmation.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/c195e250fa.js"
       crossorigin="anonymous"
@@ -33,24 +33,31 @@
       </div>
     </header>
     <main>
-      <section>
+      <section class="confirmation-hero">
         <h1>Thank you for shopping with us!</h1>
       </section>
-      <h2>Your order has successfully placed!</h2>
-      <p>
-        You will receive a confirmation email about your order, alongside
-        shipping and tracking information when your order is sent from our
-        warehouse. We appreciate you choosing RAINYDAYS for your adventure
-        needs. Keep pushing the comfort zone!
-      </p>
-      <section>
+      <section class="confirmation-info">
+        <div class="confirmation-info__header">
+          <h2>Your order has successfully placed!</h2>
+        </div>
+        <p>
+          You will receive a confirmation email about your order, alongside
+          shipping and tracking information when your order is sent from our
+          warehouse. We appreciate you choosing RAINYDAYS for your adventure
+          needs. Keep pushing the comfort zone!
+        </p>
+      </section>
+      <section class="order-summary">
         <h2>Order Summary</h2>
         <p>#01234</p>
-        <img
-          class="featured__img"
-          src="products/RainyDays_wind-jacket.webp"
-          alt="Rainy Days Black Wind Jacket"
-        />
+        <div class="order-summary__img">
+          <img
+            class=""
+            src="products/RainyDays_wind-jacket.webp"
+            alt="Rainy Days Black Wind Jacket"
+          />
+        </div>
+
         <h3>Wind Jacket</h3>
         <h4>Item: 001 / Black / M</h4>
         <h4>QTY: 1 @ $150.00</h4>
