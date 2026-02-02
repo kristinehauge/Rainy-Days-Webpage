@@ -1,3 +1,13 @@
+main {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .confirmation-hero {
     background: 
     linear-gradient(to top, rgba(10, 54, 65, 0.50), transparent),
@@ -7,19 +17,27 @@
     min-height: 10vh;
     width: 100%;
     color: rgba(239, 243, 244, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    font-family: "Roboto Serif", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
 }
 
 .confirmation-info__header {
     background-color: rgba(10, 54, 65, 0.90);
     color: rgba(239, 243, 244, 1);
     text-align: center;
+    font-weight: 600;
+    padding: 10px 0;
 }
 
 .confirmation-info p {
     font-family: "Nunito";
     font-weight: 400;
     text-align: center;
+    margin: 30px 20px;
 }
 
 .order-summary {
@@ -28,7 +46,9 @@
     border: 1px solid rgba(10, 54, 65, 0.10);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    gap: 1rem;
+    margin: 10px 10px;
+    padding: 20px 20px;
 }
 
 .order-summary__img {
@@ -37,8 +57,44 @@
     background-color: rgba(10, 54, 65, 0.1);
     border-radius: 2px;
     box-shadow: 0 2px 4px rgba(34, 34, 34, 0.1);
+    padding: 5px 5px;
 }
 
 .order-summary__img img {
     width: 100%;
+}
+
+.grid-col-span-2 {
+    grid-column: span 2;
+}
+
+.grid-col-span-3 {
+    grid-column: span 3;
+}
+
+.order-summary h4, p {
+    font-weight: 400;
+}
+
+.order-summary p {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+}
+
+.order-summary__price {
+    text-align: right;
+}
+
+.return {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 50px 0;
+}
+
+.return a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
 }

@@ -6,6 +6,7 @@
     <title>Rainy Days | Wind Jacket</title>
     <link href="/css/styles.css" rel="stylesheet" />
     <link href="/css/confirmation.css" rel="stylesheet" />
+
     <script
       src="https://kit.fontawesome.com/c195e250fa.js"
       crossorigin="anonymous"
@@ -48,7 +49,7 @@
         </p>
       </section>
       <section class="order-summary">
-        <h2>Order Summary</h2>
+        <h2 class="grid-col-span-2">Order Summary</h2>
         <p>#01234</p>
         <div class="order-summary__img">
           <img
@@ -57,15 +58,16 @@
             alt="Rainy Days Black Wind Jacket"
           />
         </div>
-
-        <h3>Wind Jacket</h3>
-        <h4>Item: 001 / Black / M</h4>
-        <h4>QTY: 1 @ $150.00</h4>
-        <hr />
-        <h3>Total</h3>
-        <h3>$150.00</h3>
+        <div class="grid-col-span-2">
+          <h3>Wind Jacket</h3>
+          <h4>Item: 001 / Black / M</h4>
+          <h4>QTY: 1 @ $150.00</h4>
+        </div>
+        <hr class="grid-col-span-3" />
+        <h3 class="grid-col-span-2">Total</h3>
+        <h3 class="order-summary__price">$150.00</h3>
       </section>
-      <div>
+      <div class="return">
         <a href="index.html"
           ><i class="fa-solid fa-arrow-left"></i>Return to shopping</a
         >
