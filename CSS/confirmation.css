@@ -24,7 +24,7 @@ header {
     text-align: center;
     font-family: "Roboto Serif", Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
-    padding: 20px 10px;
+    padding: 20px 0;
 }
 
 .confirmation-info__header {
@@ -32,14 +32,17 @@ header {
     color: rgba(239, 243, 244, 1);
     text-align: center;
     font-weight: 600;
-    padding: 10px 0;
+    padding: 10px 5px;
+    font-size: 0.9rem;
 }
 
 .confirmation-info p {
     font-family: "Nunito";
     font-weight: 400;
     text-align: center;
-    margin: 30px 20px;
+    margin: 30px auto;
+    max-width: 600px;
+    padding: 0 10px;
 }
 
 .order-summary {
@@ -49,8 +52,10 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    margin: 10px 10px;
+    margin: 20px 20px;
     padding: 20px 20px;
+    max-width: 400px;
+    margin: 10px 10px;
 }
 
 .order-summary__img {

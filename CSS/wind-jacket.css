@@ -1,10 +1,11 @@
+
 .product img {
     width: 100%;
     height: auto;
 }
 
 .product-detail {
-    max-width: 1000px;
+    max-width: 600px;
     margin: 0 auto;
     font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
@@ -48,6 +49,11 @@ p {
     font-size: 0.7em;
     text-transform: lowercase;
     text-decoration: underline;
+}
+
+.size__heading {
+    display: flex;
+    justify-content: space-between;
 }
 
 .sizes {

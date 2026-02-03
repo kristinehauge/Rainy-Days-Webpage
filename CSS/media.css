@@ -1,0 +1,52 @@
+/* Media Queries */
+
+@media (min-width: 439px) {
+    .order-summary, 
+    .payment-summary__container,
+    .shopping-bag__container { /* checkout.css */
+        margin: 20px auto;
+  }
+
+}
+
+@media (min-width: 600px) {
+  nav ul { /* styles.css */
+    text-align: center;
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+
+  nav li { /* styles.css */
+    display: inline;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 800px) {
+    .featured { /* checkout.css */
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1000px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .sub-header { /* styles.css */
+        max-width: 1000px;
+        margin: 20px auto;
+    }
+
+    .nav-links { /* styles.css */
+        max-width: 1000px;
+        margin: 10px auto;
+    }
+
+    .filter-line { /* jackets.css */
+        max-width: 1000px;
+        margin: 20px auto;
+    }
+
+    hr { /* jackets.css */
+        max-width: 1000px;
+        margin: 0 auto;
+} 
+}

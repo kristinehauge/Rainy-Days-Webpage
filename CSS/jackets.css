@@ -18,7 +18,15 @@
   padding: 1em 0.5em;
 }
 
-form {
+.filter-line {
   max-width: 1000px;
-  margin: 20px auto;
+  margin: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+  max-width: 1000px;
+  margin: 0 10px;
 }

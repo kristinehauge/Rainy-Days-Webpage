@@ -6,6 +6,7 @@
     <title>Rainy Days | All Jackets</title>
     <link href="/css/styles.css" rel="stylesheet" />
     <link href="/css/jackets.css" rel="stylesheet"/>
+    <link href="CSS/media.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/c195e250fa.js"
       crossorigin="anonymous"
@@ -65,28 +66,29 @@
       <section class="nav-links">
         <a href="/index.html" >Home > </a>
         <a href="jackets.html">Jackets</a>
-
       </section>
-      <form method="POST">
-        <div>
-          <section>
-            <label for="filter">Filter by</label>
-            <select id="filter" name="filter">
-              <option value="hiking">Hiking</option>
-              <option value="running">Running</option>
-              <option value="skiing">Skiing</option>
-            </select>
-            <label for="sorting">Sort by</label>
-            <select id="sorting" name="sorting">
-              <option value="prize low to high">Prize Low to High</option>
-              <option value="prize high to low">Prize High to Low</option>
-              <option value="popular">Popular</option>
-              <option value="recommended">Recommended</option>
-            </select>
-            <p>6 Products</p>
+          <section >
+            <form method="POST" class="filter-line">
+              <div>
+                <label for="filter-by">Filter by</label>
+                <select id="filter-by" name="filter-by">
+                <option value="hiking">Hiking</option>
+                <option value="running">Running</option>
+                <option value="skiing">Skiing</option>
+              </select>
+              </div>
+              <div>
+                <label for="sort-by">Sort by</label>
+                <select id="sort-by" name="sort-by">
+                  <option value="popularity">Popularity</option>
+                  <option value="newest">Newest</option>
+                  <option value="price-low-high">Price: Low to High</option>
+                  <option value="price-high-low">Price: High to Low</option>
+                </select>
+              </div>
+              <p>6 Products</p>
+            </form>
           </section>
-        </div>
-      </form>
          <hr>
       </section>
       <section class="featured">
