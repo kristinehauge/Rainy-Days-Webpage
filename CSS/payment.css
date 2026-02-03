@@ -74,11 +74,6 @@ label {
     text-transform:none;
 }
 
-
-.order-summary__item img {
-    width: 100%; /* fix this */
-}
-
 .shipping-info input,
 .payment .radio {
     width: 15px;
@@ -137,6 +132,31 @@ label {
     padding: 10px 10px;
     display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: 10px;
+    gap: 0.2rem;
 
+}
+
+.order-summary__item img {
+    width: 100px; /* fix this */
+}
+
+.order-summary h4 {
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.order-summary__item-details {
+    margin: 0 20px;
+}
+
+.order-summary__price {
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+.order-summary__flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px
 }
