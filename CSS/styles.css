@@ -112,15 +112,25 @@ a {
   border-radius: 2px;
 }
 
-.nav-links {
+.breadcrumbs div{
     max-width: 1000px;
-    margin: 10px 10px;
+    margin: 5px;
     margin-bottom: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
 }
 
-.nav-links a {
+.fa-circle {
+  font-size: 4px;
+}
+
+.breadcrumbs a {
     text-decoration: none;
     color: #222;
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    font-size: 0.9rem;
 }
 
 /* Home Page */
@@ -274,29 +284,49 @@ p {
 
 .activity {
   max-width: 1000px;
-  margin: 20px auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  gap: 15px;
 }
 
 .activity__card {
-  background:
-    linear-gradient(rgba(10, 54, 65, 0.2), rgba(10, 54, 65, 0.2)),
-    url(/images/man-hiking.jpg) no-repeat;
+    width: 240px;
+    height: 160px;
+    border: 2px solid #0a3641 30%;
+    border-radius: 2px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.activity__hiking {
+  background: linear-gradient(rgba(10, 54, 65, 0.2), rgba(10, 54, 65, 0.2)), url(/images/man-hiking.jpg) no-repeat;
+}
+
+.activity__skiing {
+  background: linear-gradient(rgba(10, 54, 65, 0.2), rgba(10, 54, 65, 0.2)), url(/images/man\ downhill\ skiing.jpg) no-repeat;
+}
+
+.activity__camping {
+  background: linear-gradient(rgba(10, 54, 65, 0.2), rgba(10, 54, 65, 0.2)), url(/images/camping-by-the-lake.jpg) no-repeat;
+}
+
+.activity__canoeing{
+  background: linear-gradient(rgba(10, 54, 65, 0.2), rgba(10, 54, 65, 0.2)), url(/images/canoeing.jpg) no-repeat;
+}
+
+.activity__hiking, 
+.activity__skiing, 
+.activity__camping, 
+.activity__canoeing {
   background-position: center;
   background-size: cover;
-  width: 310px;
-  height: 196px;
-  border: 2px solid #0a3641 30%;
-  border-radius: 2px;
-  color: #fff;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
 }
 
 .footer-content {
@@ -305,6 +335,10 @@ p {
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
+}
+
+.footer-content__links {
+  margin: 20px;
 }
 
 footer div h1 {

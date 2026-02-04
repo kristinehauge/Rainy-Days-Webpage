@@ -63,30 +63,54 @@
       <section class="hero-jackets">
         <h1>Get ready for any adventure</h1>
       </section>
-      <section class="nav-links">
-        <a href="/index.html" >Home > </a>
-        <a href="jackets.html">Jackets</a>
+      <section class="breadcrumbs">
+        <div>
+          <a href="/index.html" >Home</a>
+          <i class="fa-solid fa-circle"></i>
+          <a href="jackets.html">Jackets</a>
+          <i class="fa-solid fa-circle"></i>
+        </div>
       </section>
           <section >
-            <form method="POST" class="filter-line">
+            <form method="POST" class="filter">
               <div>
-                <label for="filter-by">Filter by</label>
-                <select id="filter-by" name="filter-by">
-                <option value="hiking">Hiking</option>
-                <option value="running">Running</option>
-                <option value="skiing">Skiing</option>
+                <label for="style"></label>
+                <select id="filter__style" name="style">
+                  <option value="">Style</option>
+                  <option value="rain-jacket">Rain</option>
+                  <option value="parkas">Parkas</option>
+                  <option value="fleece">Fleece</option>
               </select>
               </div>
               <div>
-                <label for="sort-by">Sort by</label>
+                <label for="size"></label>
+                <select id="filter__size" name="size">
+                  <option value="">Size</option>
+                  <option value="Small">Small</option>
+                  <option value="Medium">Medium</option>
+                  <option value="Large">Large</option>
+              </select>
+              </div>
+              <div>
+                <label for="activity"></label>
+                <select id="filter__activity" name="activity">
+                  <option value="">Activity</option>
+                  <option value="hiking">Hiking</option>
+                  <option value="running">Running</option>
+                  <option value="skiing">Skiing</option>
+              </select>
+              </div>
+              <div>
+                <label for="sort-by"></label>
                 <select id="sort-by" name="sort-by">
+                  <option value="">Sort By</option>
                   <option value="popularity">Popularity</option>
                   <option value="newest">Newest</option>
                   <option value="price-low-high">Price: Low to High</option>
                   <option value="price-high-low">Price: High to Low</option>
                 </select>
               </div>
-              <p>6 Products</p>
+              <p><span>6</span> Products</p>
             </form>
           </section>
          <hr>

@@ -63,67 +63,76 @@
       <div class="page-title">
         <h1>Shopping Bag</h1>
       </div>
-      <section class="nav-links">
-        <a href="/index.html">Home > </a>
-        <a href="jackets.html">Jackets ></a>
-        <a href="wind-jacket.html">Wind Jacket</a>
-      </section>
-      <section class="shopping-bag__container">
-        <div class="grid-col-span-3">
-          <h2>Shopping Bag - 1 Items</h2>
-          <hr />
-        </div>
-        <div class="featured__img featured__img-small">
-          <a href="wind-jacket.html"
-            ><img
-              src="products/RainyDays_wind-jacket.webp"
-              alt="Rainy Days Black Wind Jacket"
-          /></a>
-        </div>
-        <div class="shopping-bag__info">
-          <h3>Wind Jacket</h3>
-          <h4>Size: <span>Medium</span></h4>
-          <h4>Colour: <span>Black</span></h4>
-          <h5>$150.00</h5>
-        </div>
-        <div class="shopping-bag__icons">
-          <i class="fa-regular fa-trash-can"></i>
-          <div class="add-remove">
-            <i class="fa-solid fa-minus"></i>
-            <span>1</span>
-            <i class="fa-solid fa-plus"></i>
-          </div>
-        </div>
-      </section>
-      <section class="payment-summary__container">
+      <section class="breadcrumbs">
         <div>
-          <h2>Payment Summary</h2>
+          <a href="/index.html">Home</a>
+          <i class="fa-solid fa-circle"></i>
+          <a href="jackets.html">Jackets</a>
+          <i class="fa-solid fa-circle"></i>
+          <a href="wind-jacket.html">Wind Jacket</a>
+          <i class="fa-solid fa-circle"></i>
+          <a href="checkout.html">Shopping Bag</a>
+          <i class="fa-solid fa-circle"></i>
+        </div>
+      </section>
+      <section class="page-grid">
+        <section class="shopping-bag__container">
+          <div class="grid-col-span-3">
+            <h2>Shopping Bag - 1 Items</h2>
+            <hr />
+          </div>
+          <div class="featured__img featured__img-small">
+            <a href="wind-jacket.html"
+              ><img
+                src="products/RainyDays_wind-jacket.webp"
+                alt="Rainy Days Black Wind Jacket"
+            /></a>
+          </div>
+          <div class="shopping-bag__info">
+            <h3>Wind Jacket</h3>
+            <h4>Size: <span>Medium</span></h4>
+            <h4>Colour: <span>Black</span></h4>
+            <h5>$150.00</h5>
+          </div>
+          <div class="shopping-bag__icons">
+            <i class="fa-regular fa-trash-can"></i>
+            <div class="add-remove">
+              <i class="fa-solid fa-minus"></i>
+              <span>1</span>
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+        </section>
+        <section class="payment-summary__container">
+          <div>
+            <h2>Payment Summary</h2>
+            <hr />
+          </div>
+          <div class="payment-summary__info">
+            <div class="grid-col-1">
+              <h3>Subtotal</h3>
+              <h3>Estimated shipping</h3>
+              <p>Estimated Delivery in 2 - 4 days</p>
+              <p class="promo-code">Do you have a promo code?</p>
+            </div>
+            <div class="grid-col-2">
+              <h3>$150.00</h3>
+              <h3>free</h3>
+              <i class="fa-solid fa-plus promo-code"></i>
+            </div>
+          </div>
           <hr />
-        </div>
-        <div class="payment-summary__info">
-          <div class="grid-col-1">
-            <h3>Subtotal</h3>
-            <h3>Estimated shipping</h3>
-            <p>Estimated Delivery in 2 - 4 days</p>
-            <p class="promo-code">Do you have a promo code?</p>
+          <div class="payment-summary__total">
+            <div class="grid-col-1">
+              <h3>Estimated Total</h2>
+              <p>VAT and customs costs are included</p>
+            </div>
+            <h3 class="grid-col-2">$150.00</h2>
+            <a href="payment.html" class="cta cta-large grid-col-span-2"
+              >Continue checkout</a
+            >
           </div>
-          <div class="grid-col-2">
-            <h3>$150.00</h3>
-            <h3>free</h3>
-            <i class="fa-solid fa-plus promo-code"></i>
-          </div>
-        </div>
-        <hr />
-        <div class="payment-summary__total">
-          <div class="grid-col-1">
-            <h3>Estimated Total</h2>
-            <p>VAT and customs costs are included</p>
-          </div>
-          <h3 class="grid-col-2">$150.00</h2>
-          <a href="payment.html" class="cta cta-large grid-col-span-2"
-            >Continue checkout</a
-          >
-        </div>
+        </section>
       </section>
       <div class="return">
         <a href="jackets.html"
