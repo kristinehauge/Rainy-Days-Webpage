@@ -62,7 +62,11 @@
         margin: 20px auto;
     }
 
-    .nav-links { /* styles.css */
+    .featured {
+        margin: 0 auto;
+    }
+
+    .breadcrumbs { /* styles.css */
         max-width: 1000px;
         margin: 10px auto;
     }
