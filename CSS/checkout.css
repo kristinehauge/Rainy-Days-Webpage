@@ -6,6 +6,12 @@ main {
     width: 100%;
 }
 
+.featured__img {
+    display: flex;
+    align-self: start;
+    align-items: flex-start;
+}
+
 .page-title {
     background-color: #CDD7D9;
     text-align: center;
@@ -16,13 +22,13 @@ main {
 .shopping-bag__container {
     display: grid;
     gap: 0.5rem;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 0 10px;
+    grid-template-columns: repeat(3, auto);
     max-width: 400px;
+    margin: 20px;
+    align-items: start;
 }
 
 .shopping-bag__container h2 {
-    margin: 0 10px;
     font-weight: 500;
 }
 
@@ -31,7 +37,7 @@ main {
 }
 
 .shopping-bag__info {
-    margin-top: 10px;
+    align-self: start;
 }
 
 .shopping-bag__info h3 {
@@ -63,6 +69,7 @@ main {
     gap: 5rem;
     margin-top: 10px;
     margin-right: 10px;
+    align-self: start;
 }
 
 .add-remove {
@@ -94,9 +101,8 @@ main {
     max-width: 400px;
 }
 
-.payment-summary__container h2, hr {
+.payment-summary__container h2 {
     font-weight: 700;
-    margin: 10px 10px;
 }
 
 .payment-summary__info {

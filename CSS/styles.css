@@ -183,7 +183,7 @@ a {
   margin-left: 10px;
 }
 
-hr {
+hr-index {
   border: none;
   border-top: 1px solid #222;
   position: relative;
@@ -196,7 +196,7 @@ hr {
   grid-template-columns: 1fr 1fr;
   max-width: 600px;
   gap: 10px;
-  margin: 10px auto;
+  margin: 10px 10px;
 }
 
 .featured__card {
@@ -210,13 +210,11 @@ hr {
   background-color: rgba(10, 54, 65, 0.1);
   border-radius: 2px;
   box-shadow: 0 2px 4px rgba(34, 34, 34, 0.1);
-  margin: 10px;
   padding: 10px;
 }
 
 .featured__img-small {
-  margin: auto;
-  padding: 0.3em 0.3em;
+  padding: 0.2rem 0.2rem;
 }
 
 .featured__card img {
