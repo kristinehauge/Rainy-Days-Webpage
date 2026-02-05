@@ -1,3 +1,11 @@
+.page-title {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    color: #222;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
 .delivery, 
 .email,
 .shipping-info,
@@ -131,7 +139,7 @@ label {
     background-color: #EFF3F4;
     padding: 10px 10px;
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: auto 1fr auto;
     gap: 0.2rem;
 
 }
@@ -159,4 +167,14 @@ label {
     display: flex;
     justify-content: space-between;
     margin: 0 20px
+}
+
+.order.summary__item-details,
+.order-summary__price {
+    border-top: 1px #222;
+}
+
+.line {
+    border-top: 1px solid #222;
+    width: 100%;
 }

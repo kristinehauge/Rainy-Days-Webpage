@@ -59,10 +59,10 @@
           <label for="cart"><i class="fa-solid fa-cart-shopping"></i></label>
         </div>
       </div>
-    </header>
-    <main>
       <h1 class="page-title">Checkout</h1>
-      <section class="delivery">
+    </header>
+    <main class="payment-grid">
+        <section class="delivery">
           <h2>Delivery</h2>
           <div class="delivery__login">
             <p>Do you already have an account?</p>
@@ -112,109 +112,108 @@
               <input type="text" id="city" />
             </div>
           </form>
-        </div>
-      </section>
-      <section class="email">
-        <h2>Email address</h2>
-        <p>You will receive order confirmation and updates</p>
-        <form>
-          <div class="grid-col-span-2">
-            <label for="email">Email address</label>
-            <input type="email" id="email" />
-          </div>
-          <div class="form-flex">
-            <input type="checkbox" id="newsletter" />
-            <label for="newsletter"
-              >Sign up for our newsletter and exclusive offers</label
-            >
-          </div>
-        </form>
-      </section>
-      <section class="shipping-info">
-        <h2>Shipping</h2>
-        <div class="shipping-info__container">
-          <input type="radio" class="grid-row-span-2" id="standard" />
-          <label for="standard"
-            >Standard</label>
-            <p class="grid-row-span-2 price">Free</p>
-            <p>Delivery in 3-6 business days</p>
-        </div>
-        <div class="shipping-info__container">
-          <input type="radio" class="grid-row-span-2" id="express" />
-          <label for="express"
-            >Express</label>
-            <p class="grid-row-span-2 price">$17.00</p>
-            <p>Delivery in 2-4 business days</p>
-        </div>
-        <div class="shipping-info__container">
-          <input type="radio" class="grid-row-span-2" id="priority" />
-          <label for="priority"
-            >Priority</label>
-            <p class="grid-row-span-2 price">$25.00</p>
-            <p>Delivery in 1-2 business days</p>
-        </div>
-      </section>
-      <section class="payment">
-        <h2>Payment</h2>
-        <div class="payment__container">
-          <input type="radio" class="radio" id="paypal" />
-          <label for="paypal">PayPal</label>
-        </div>
-        <div class="payment__current" >
-          <div class="payment__container">
-            <input type="radio" class="radio" id="card" />
-            <label for="card">Debit or Credit Card</label>
-          </div>
-          <form class="payment__current-card">
+        </section>
+        <section class="email grid-row-2">
+          <h2>Email address</h2>
+          <p>You will receive order confirmation and updates</p>
+          <form>
             <div class="grid-col-span-2">
-              <label for="card-name">Cardholder Name</label>
-              <input type="text" id="card-name" />
+              <label for="email">Email address</label>
+              <input type="email" id="email" />
             </div>
-            <div class="grid-col-span-2">
-              <label for="card-number">Card Number</label>
-              <input type="number" id="card-number" />
-            </div>
-            <div>
-              <label for="cvv">CVV</label>
-              <input type="number" id="cvv" />
-            </div>
-            <div>
-              <label for="expiry-date">Expiry Date</label>
-              <input type="number" id="expiry-date" />
+            <div class="form-flex">
+              <input type="checkbox" id="newsletter" />
+              <label for="newsletter"
+                >Sign up for our newsletter and exclusive offers</label
+              >
             </div>
           </form>
-        </div>
-      </section>
-      <section class="order-summary">
-        <h2 class="grid-col-span-3">Order Summary</h2>
-        <div class="order-summary__item">
-          <img
-            class="featured__img featured__img-small"
-            src="products/RainyDays_wind-jacket.webp"
-            alt="Rainy Days Black Wind Jacket"
-          />
-        </div>
-        <div class="grid-col-span-2">
+        </section>
+        <section class="shipping-info">
+          <h2>Shipping</h2>
+          <div class="shipping-info__container">
+            <input type="radio" class="grid-row-span-2" id="standard" />
+            <label for="standard">Standard</label>
+            <p class="grid-row-span-2 price">Free</p>
+            <p>Delivery in 3-6 business days</p>
+          </div>
+          <div class="shipping-info__container">
+            <input type="radio" class="grid-row-span-2" id="express" />
+            <label for="express">Express</label>
+            <p class="grid-row-span-2 price">$17.00</p>
+            <p>Delivery in 2-4 business days</p>
+          </div>
+          <div class="shipping-info__container">
+            <input type="radio" class="grid-row-span-2" id="priority" />
+            <label for="priority">Priority</label>
+            <p class="grid-row-span-2 price">$25.00</p>
+            <p>Delivery in 1-2 business days</p>
+          </div>
+        </section>
+        <section class="payment">
+          <h2>Payment</h2>
+          <div class="payment__container">
+            <input type="radio" class="radio" id="paypal" />
+            <label for="paypal">PayPal</label>
+          </div>
+          <div class="payment__current">
+            <div class="payment__container">
+              <input type="radio" class="radio" id="card" />
+              <label for="card">Debit or Credit Card</label>
+            </div>
+            <form class="payment__current-card">
+              <div class="grid-col-span-2">
+                <label for="card-name">Cardholder Name</label>
+                <input type="text" id="card-name" />
+              </div>
+              <div class="grid-col-span-2">
+                <label for="card-number">Card Number</label>
+                <input type="number" id="card-number" />
+              </div>
+              <div>
+                <label for="cvv">CVV</label>
+                <input type="number" id="cvv" />
+              </div>
+              <div>
+                <label for="expiry-date">Expiry Date</label>
+                <input type="number" id="expiry-date" />
+              </div>
+            </form>
+          </div>
+        </section>
+        <section class="order-summary">
+          <h2 class="grid-col-span-3">Order Summary</h2>
+          <div class="order-summary__item">
+            <img
+              class="featured__img featured__img-small"
+              src="products/RainyDays_wind-jacket.webp"
+              alt="Rainy Days Black Wind Jacket"
+            />
+          </div>
+          <div class="grid-col-span-2">
             <h3>Wind Jacket</h3>
             <h4>Item: 001 / Black / M</h4>
             <h4>QTY: 1 @ $150.00</h4>
-        </div>
-        <hr class="grid-col-span-3"/>
-        <div class="grid-col-span-2 order-summary__item-details">
-          <h3>Subtotal</h3>
-          <h3>Shipping</h3>
-          <p>VAT and customs costs are included</p>
-        </div>
-        <div class="order-summary__price">
-          <h3 class="">$150.00</h3>
-          <h3>Free</h3>
-        </div>
-        <hr class="grid-col-span-3"/>
-        <div class="grid-col-span-3 order-summary__flex ">
-          <h3>Total</h3>
-          <h3 class="">$150.00</h3>
-        </div>
-        <a href="confirmation.html" class="cta cta-large grid-col-span-3">Place order</a>
+          </div>
+          <div class="line grid-col-span-3"></div>
+          <div class="grid-col-span-2 order-summary__item-details">
+            <h3>Subtotal</h3>
+            <h3>Shipping</h3>
+            <p>VAT and customs costs are included</p>
+          </div>
+          <div class="order-summary__price">
+            <h3 class="">$150.00</h3>
+            <h3>Free</h3>
+          </div>
+          <div class="line grid-col-span-3"></div>
+          <div class="grid-col-span-3 order-summary__flex">
+            <h3>Total</h3>
+            <h3 class="">$150.00</h3>
+          </div>
+          <a href="confirmation.html" class="cta cta-large grid-col-span-3"
+            >Place order</a
+          >
+        </section>
       </section>
     </main>
     <footer>

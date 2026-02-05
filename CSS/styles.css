@@ -79,6 +79,10 @@ i {
   color: #0a3641;
 }
 
+.current:hover {
+  text-decoration: underline;
+}
+
 /* Links */
 .cta {
   color: rgba(255, 255, 255, 1);
@@ -153,6 +157,10 @@ a {
   justify-content: center;
   position: relative;
   top: 20px;
+}
+
+.hero__content p {
+  display: none;
 }
 
 .hero__content h1 {
