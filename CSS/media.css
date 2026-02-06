@@ -1,6 +1,6 @@
 /* Media Queries */
 @media (max-width: 415px) {
-/* ------ styles.css ------  */
+/* ------ styles ------  */
     .footer-content { 
         display: grid;
         grid-template-columns: 1fr;
@@ -24,7 +24,7 @@
 }
 
 @media (min-width: 600px) {
-/* ------ styles.css ------  */
+/* ------ styles ------  */
     nav ul { 
     text-align: center;
     max-width: 1000px;
@@ -44,10 +44,17 @@
     .featured {
     margin: 10px auto;
   }
+
+/* ------ wind-jacket ------ */
+   .specific-product {
+    max-width: 590px;
+    margin: 0 auto;
+   }
+
 }
 
 @media (min-width: 800px) {
-/* ------ styles.css ------ */
+/* ------ styles ------ */
     .hero__content {
         flex-wrap: wrap;
         flex-direction: column;
@@ -73,7 +80,7 @@
         margin: 0 50px;
     }
 
-/* ------ checkout.css ------ */
+/* ------ checkout ------ */
     .featured { 
         grid-template-columns: repeat(3, 1fr);
         max-width: 1000px;
@@ -91,7 +98,7 @@
         padding: 20px;
     }
 
-/* ------ payment.css ------ */
+/* ------ payment ------ */
     .payment-grid { 
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -130,7 +137,7 @@
 
 
 @media (min-width: 1000px) {
-/* ------ styles.css ------  */
+/* ------ styles ------  */
     .hero__content {
         flex-wrap: wrap;
         flex-direction: column;
@@ -143,7 +150,7 @@
         margin: 0 auto;
     }
     
-    .sub-header { /* styles.css */
+    .sub-header { 
         max-width: 1000px;
         margin: 20px auto;
     }
@@ -152,54 +159,65 @@
         margin: 0 auto;
     }
 
-    .breadcrumbs { /* styles.css */
+    .breadcrumbs { 
         max-width: 1000px;
-        margin: 10px auto;
+        margin: 2px auto 50px;
     }
 
-    .filter-line { /* jackets.css */
+    .breadcrumbs div {
+        max-width: 1000px;
+        margin: 5px auto;
+    }
+
+    .activity {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+/* ------ jackets ------ */
+    .filter-line { 
         max-width: 1000px;
         margin: 20px auto;
     }
 
-    hr:not(.order-summary hr) { /* jackets.css */
+    hr:not(.order-summary hr) {
         max-width: 1000px;
         margin: 0 auto;
     }
     
-    .breadcrumbs div { /* styles.css */
-        max-width: 1000px;
-        margin: 5px auto;
-    }
-
-    .filter { /* jackets.css */
+    .filter { 
         margin: 10px auto;
     }
 
-    .activity {  /*styles.css */
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-/* ------ wind-jacket.css ------ */
-    
+/* ------ wind-jacket ------ */
     .specific-product {
         max-width: 1000px;
-        margin: 5px auto;
+        margin: 0 auto;
+        margin-bottom: 100px;
     }
     .specific-product-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto 1fr;
+        grid-template-rows: auto auto 1fr;
+        gap: 0 30px;
     }
 
-    .product {
+    .specific-product__header {
+        grid-column: 2;
+    }
+
+    .specific-product__img {
         grid-column: 1;
-        grid-row: 1/3;
+        grid-row: 1/4;
     }
 
     .specific-product__info {
         grid-column: 2;
+    }
 
+    .line {
+    border-top: 1px solid #222;
+    width: 100%;
+    margin-top: 20px;
     }
 
 }
