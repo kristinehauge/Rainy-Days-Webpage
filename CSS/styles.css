@@ -2,6 +2,8 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
 }
 
 /* Header */
@@ -237,7 +239,6 @@ hr-index {
   font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 10px;
   font-style: normal;
-  font-weight: 400;
 }
 
 p {
@@ -280,7 +281,6 @@ p {
 
 .new-collection__content h2 {
   font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 400;
 }
 
 .new-collection__links {

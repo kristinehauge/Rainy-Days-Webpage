@@ -1,48 +1,53 @@
 /* Media Queries */
 @media (max-width: 415px) {
-    .featured { /* ---checkout--- */
+/* ------ styles.css ------  */
+    .footer-content { 
+        display: grid;
         grid-template-columns: 1fr;
     }
-
-    .footer-content { /* ---styles--- */
-        display: grid;
+    
+/* ------ checkout ------ */
+    .featured { 
         grid-template-columns: 1fr;
     }
 
 }
 
 @media (min-width: 439px) {
+/* ------ checkout ------ */
     .order-summary, 
     .payment-summary__container,
-    .shopping-bag__container { /* ---checkout.css--- */
+    .shopping-bag__container { 
         margin: 20px auto;
   }
 
 }
 
 @media (min-width: 600px) {
-  .featured {
-    margin: 10px auto;
-  }
-  
-    nav ul { /* styles.css */
+/* ------ styles.css ------  */
+    nav ul { 
     text-align: center;
     max-width: 1000px;
     margin: 20px auto;
   }
 
-  nav li { /* styles.css */
+  nav li { 
     display: inline;
     padding: 10px;
   }
 
-  .activity {  /*styles.css */
+  .activity {  
         grid-template-columns: repeat(2, 1fr);
     }
+  
+/* ------ checkout ------ */
+    .featured {
+    margin: 10px auto;
+  }
 }
 
 @media (min-width: 800px) {
-/* ---styles.css--- */
+/* ------ styles.css ------ */
     .hero__content {
         flex-wrap: wrap;
         flex-direction: column;
@@ -68,12 +73,13 @@
         margin: 0 50px;
     }
 
-    .featured { /* checkout.css */
+/* ------ checkout.css ------ */
+    .featured { 
         grid-template-columns: repeat(3, 1fr);
         max-width: 1000px;
     }
 
-    .page-grid { /* --- checkout.css--- */
+    .page-grid { 
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         max-width: 1000px;
@@ -81,11 +87,12 @@
         gap: 30px;
     }
 
-    .payment-summary__container { /* --- checkout.css--- */
+    .payment-summary__container { 
         padding: 20px;
     }
 
-    .payment-grid { /* ---payment.css--- */
+/* ------ payment.css ------ */
+    .payment-grid { 
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
@@ -93,17 +100,17 @@
         margin: 50px auto;
     }
 
-    .email { /* ---payment.css--- */
+    .email { 
         grid-column: 1;
         grid-row: 2;
     }
 
-    .shipping-info { /* ---payment.css--- */
+    .shipping-info { 
         grid-column: 1;
         grid-row: 3;
     }
 
-    .payment { /* ---payment.css--- */
+    .payment { 
         grid-column: 1;
         grid-row: 4;
     }
@@ -116,14 +123,14 @@
         margin: 20px 0;
     }
 
-    .order-summary{ /* ---payment.css--- */
+    .order-summary{ 
         padding: 20px;
     }
 }
 
 
 @media (min-width: 1000px) {
-/* ---styles.css--- */
+/* ------ styles.css ------  */
     .hero__content {
         flex-wrap: wrap;
         flex-direction: column;
@@ -173,13 +180,13 @@
         grid-template-columns: repeat(4, 1fr);
     }
 
-    /* ---wind-jacket.css--- */
+/* ------ wind-jacket.css ------ */
     
-    .product-detail {
+    .specific-product {
         max-width: 1000px;
         margin: 5px auto;
     }
-    .wind-jacket-grid {
+    .specific-product-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto 1fr;
@@ -190,7 +197,7 @@
         grid-row: 1/3;
     }
 
-    .product-detail__info {
+    .specific-product__info {
         grid-column: 2;
 
     }

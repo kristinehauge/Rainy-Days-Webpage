@@ -38,7 +38,6 @@ header {
 
 .confirmation-info p {
     font-family: "Nunito";
-    font-weight: 400;
     text-align: center;
     margin: 30px auto;
     max-width: 600px;
@@ -80,7 +79,6 @@ header {
 }
 
 .order-summary h4, p {
-    font-weight: 400;
 }
 
 .order-summary p {

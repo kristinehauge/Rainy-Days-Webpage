@@ -1,17 +1,17 @@
 
-.product img {
+.specific-product__img img {
     width: 100%;
     height: auto;
 }
 
-.product-detail {
+.specific-specific-product__img {
     max-width: 600px;
     margin: 0 auto;
     font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
 }
 
-.product-detail h1,
+.specific-specific-product__img h1,
 h2,
 h3,
 h4,
@@ -19,14 +19,13 @@ p {
     margin: 10px;
 }
 
-.product-detail h1 {
+.specific-specific-product__img h1 {
     font-weight: 700;
     font-size: 1.5em;
     
 }
 
-.product-detail h2 {
-    font-weight: 400;
+.specific-specific-product__img h2 {
     font-size: 1em;
 }
 
@@ -39,13 +38,12 @@ p {
     margin: 10px;    
 }
 
-.product-detail h3, h4 {
+.specific-specific-product__img h3, h4 {
     font-weight: 700;
     font-size: 0.8em;
 }
 
-.product-detail p {
-    font-weight: 400;
+.size__heading p {
     font-size: 0.7em;
     text-transform: lowercase;
     text-decoration: underline;
@@ -72,4 +70,8 @@ p {
     padding: 10px;
     font-size: 0.9em;
     border-radius: 50%;
+}
+
+.specific-product__text {
+
 }

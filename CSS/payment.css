@@ -46,7 +46,6 @@ input {
 label {
     text-transform: uppercase;
     font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;
     font-size: 0.9rem;
 }
 
@@ -149,7 +148,6 @@ label {
 }
 
 .order-summary h4 {
-    font-weight: 400;
     font-size: 0.9rem;
 }
 
