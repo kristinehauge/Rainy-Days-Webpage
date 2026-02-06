@@ -55,6 +55,10 @@
 
 @media (min-width: 800px) {
 /* ------ styles ------ */
+    .hero {
+        min-height: 35vh;
+    }
+    
     .hero__content {
         flex-wrap: wrap;
         flex-direction: column;
@@ -137,7 +141,39 @@
 
 
 @media (min-width: 1000px) {
+/* ------ header ------ */
+    .header-bar {
+        display: grid;
+        grid-template-columns: 1fr auto auto auto auto;
+        grid-template-rows: 1;
+        gap: 15px;
+    }
+
+    .header-bar__logo {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .fa-bars {
+        display: none;
+    }
+
+    .fa-magnifying-glass {
+        padding-left: 150px;
+    }
+
+/* ------ footer ------ */
+    .footer-content {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, auto);
+    }
+
 /* ------ styles ------  */
+    .hero {
+        min-height: 40vh;
+    }
+
     .hero__content {
         flex-wrap: wrap;
         flex-direction: column;
