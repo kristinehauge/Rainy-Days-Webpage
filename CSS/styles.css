@@ -367,15 +367,28 @@ p {
 }
 
 /* ------ Footer ------ */
+footer {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #CDD7D9;
+  padding: 40px 0;
+}
+
 .footer-content {
-  max-width: 1000px;
+  max-width: 300px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
+  gap: 15px;
+  padding: 20px 10px;
+}
+
+.footer-content__socials {
+  margin: 20px auto;
 }
 
 .footer-content__links {
-  margin: 20px;
+  margin-left: 60px;
 }
 
 .footer-content h1 {
@@ -389,6 +402,7 @@ p {
 footer li {
   text-align: left;
   display: block;
+  font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 footer i {
@@ -397,7 +411,32 @@ footer i {
   font-size: 1.5em;
 }
 
-footer {
-  margin-top: 50px;
+.line {
+  display: none;
+}
+
+.newsletter h1 {
   text-align: center;
+  margin: 15px 0;
+}
+
+.newsletter_email {
+  border: 1px solid rgba(250, 254, 255, 0.8);
+  display: inline-flex;
+  padding: 5px;
+  justify-content: center;
+}
+
+.newsletter_email p {
+  font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  padding: 5px 10px;;
+}
+
+button {
+  background-color: rgba(250, 254, 255, 0.8);
+  border: rgba(250, 254, 255, 0.8);
+  border-radius: 2px;
+  padding: 5px 20px;
+
 }

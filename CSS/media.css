@@ -51,6 +51,16 @@
     margin: 0 auto;
    }
 
+/* ------ Footer ------ */
+   .footer-content {
+    max-width: 1000px;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 20px 10px;
+    }
+
+    /* continue footer -> links on right side and logo and social on left, put newsletter across bottom */
+
 }
 
 @media (min-width: 800px) {
