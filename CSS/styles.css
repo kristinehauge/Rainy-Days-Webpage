@@ -160,7 +160,7 @@ a {
 }*/
 .hero {
   position: relative;
-  height: 30vh;
+  min-height: 30vh;
 }
 
 .hero__img {
@@ -308,30 +308,40 @@ p {
 }
 
 .new-collection {
-  background:
-    no-repeat,
-    linear-gradient(rgba(239, 243, 244, 0.2), rgba(239, 243, 244, 0.2)),
-    url(/images/woman\ downhill\ skiing.jpg);
-  background-size: cover;
+  position: relative;
   min-height: 20vh;
+}
+
+.new-collection__img {
+  position: absolute;
   width: 100%;
-  max-width: 1000px;
-  margin: 50px auto;
-  background-position: 20% 57%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 20% 57%;
 }
 
 .new-collection__content {
+  position: absolute;
+  top: 10%;
+  right: 5%;
   max-width: 1000px;
   margin: 0 auto;
   text-align: right;
   color: #fff;
-  padding: 1em 1.5em;
 }
+
+/*.new-collection {
+  background:
+    no-repeat,
+    linear-gradient(rgba(239, 243, 244, 0.2), rgba(239, 243, 244, 0.2)),
+    url(/images/woman\ downhill\ skiing.jpg);
+}*/
 
 .new-collection__content h1 {
   font-family: "Roboto Serif", Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
+  font-size: 1.5rem;
 }
 
 .new-collection__content h2 {
@@ -340,7 +350,9 @@ p {
 
 .new-collection__links {
   text-align: right;
-  padding: 1em 1.5em;
+  position: absolute;
+  right: 5%;
+  top: 70%;
 }
 
 .activity {
