@@ -6,6 +6,11 @@
     font-weight: 500;
 }
 
+.payment-grid {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 .delivery, 
 .email,
 .shipping-info,

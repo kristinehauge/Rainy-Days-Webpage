@@ -104,23 +104,21 @@
 
   .featured {
     margin: 20px 20px;
-  }
-
-  /* ------ checkout ------ */
-  .featured {
     grid-template-columns: repeat(3, 1fr);
     max-width: 1000px;
   }
 
+  /* ------ checkout ------ */
   .checkout-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    max-width: 1000px;
+    max-width: 800px;
     margin: 50px auto;
     gap: 30px;
+    align-items: start;
   }
 
-  .payment-summary__container {
+  .checkout__payment-container {
     padding: 20px;
   }
 
@@ -128,9 +126,10 @@
   .payment-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+    column-gap: 50px;
+    row-gap: 1rem;
     max-width: 1000px;
-    margin: 50px auto;
+    margin: 50px 20px;
   }
 
   .email {
@@ -327,5 +326,11 @@
     border-top: 1px solid #222;
     width: 100%;
     margin-top: 20px;
+  }
+
+  /* ------ payment ------ */
+  .payment-grid {
+    max-width: 1000px;
+    margin: 50px auto;
   }
 }
