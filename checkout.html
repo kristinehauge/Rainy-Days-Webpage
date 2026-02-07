@@ -25,25 +25,26 @@
   <body>
     <header>
       <div class="header-bar">
-        <label for="hamburger-menu"><i class="fas fa-bars nav-bar"></i></label>
+        <label for="hamburger-menu" class="header-bar__hamburger"
+          ><i class="fas fa-bars nav-bar"></i
+        ></label>
         <input type="checkbox" id="hamburger-menu" />
-        <nav>
+        <nav class="header-bar__no-show">
           <ul>
-            <!-- <li><a href="index.html">Home</a></li> -->
-            <li><a href="jackets.html">Shop All</a></li>
-            <li><a href="jackets.html">Women</a></li>
-            <li><a href="jackets.html">Men</a></li>
-            <li><a href="wind-jacket.html">Best Sellers</a></li>
-            <li><a href="jackets.html">New Arrivals</a></li>
-            <li><a href="jackets.html">Activities</a></li>
+            <li><a href="jackets.html" class="current">Shop All</a></li>
+            <li><a href="jackets.html" class="current">Women</a></li>
+            <li><a href="jackets.html" class="current">Men</a></li>
+            <li><a href="wind-jacket.html" class="current">Best Sellers</a></li>
+            <li><a href="jackets.html" class="current">New Arrivals</a></li>
+            <li><a href="jackets.html" class="current">Activities</a></li>
           </ul>
         </nav>
         <div class="icon">
-          <label for="search"
+          <label for="search" id="search"
             ><i class="fa-solid fa-magnifying-glass"></i
           ></label>
         </div>
-        <div>
+        <div class="header-bar__logo">
           <a href="index.html"
             ><img
               src="../images/RainyDays_Logo.png"
@@ -52,10 +53,14 @@
           /></a>
         </div>
         <div class="icon">
-          <label for="heart"><i class="fa-regular fa-heart"></i></label>
+          <label for="heart" id="heart"
+            ><i class="fa-regular fa-heart"></i
+          ></label>
         </div>
         <div class="icon">
-          <label for="cart"><i class="fa-solid fa-cart-shopping"></i></label>
+          <label for="cart" id="cart"
+            ><i class="fa-solid fa-cart-shopping"></i
+          ></label>
         </div>
       </div>
     </header>
@@ -75,26 +80,27 @@
           <i class="fa-solid fa-circle"></i>
         </div>
       </section>
-      <section class="page-grid">
-        <section class="shopping-bag__container">
-          <div class="grid-col-span-3">
-            <h2>Shopping Bag - 1 Items</h2>
-            <hr />
+      <section class="checkout-grid">
+        <section class="checkout__shopping-container ">
+          <div class="checkout__shopping-header">
+            <h2>Shopping Bag</h2>
+            <h2>1 item</h2>
           </div>
-          <div class="featured__img featured__img-small">
+          <div class="checkout__line"></div>
+          <div class="featured__img ">
             <a href="wind-jacket.html"
               ><img
                 src="products/RainyDays_wind-jacket.webp"
                 alt="Rainy Days Black Wind Jacket"
             /></a>
           </div>
-          <div class="shopping-bag__info">
+          <div class="checkout__shopping-info">
             <h3>Wind Jacket</h3>
             <h4>Size: <span>Medium</span></h4>
             <h4>Colour: <span>Black</span></h4>
             <h5>$150.00</h5>
           </div>
-          <div class="shopping-bag__icons">
+          <div class="checkout__shopping-icons">
             <i class="fa-regular fa-trash-can"></i>
             <div class="add-remove">
               <i class="fa-solid fa-minus"></i>
@@ -103,12 +109,10 @@
             </div>
           </div>
         </section>
-        <section class="payment-summary__container">
-          <div>
-            <h2>Payment Summary</h2>
-            <hr />
-          </div>
-          <div class="payment-summary__info">
+        <section class="checkout__payment-container">
+          <h2 class="checkout__payment-header">Payment Summary</h2>
+          <div class="checkout__line"></div>
+          <div class="checkout__payment-info">
             <div class="grid-col-1">
               <h3>Subtotal</h3>
               <h3>Estimated shipping</h3>
@@ -121,7 +125,7 @@
               <i class="fa-solid fa-plus promo-code"></i>
             </div>
           </div>
-          <hr />
+          <div class="checkout__line"></div>
           <div class="payment-summary__total">
             <div class="grid-col-1">
               <h3>Estimated Total</h2>

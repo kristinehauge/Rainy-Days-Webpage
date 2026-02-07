@@ -26,23 +26,42 @@
   flex-wrap: wrap;
 }
 
-select, 
-option, 
+select,
+option,
 .filter {
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
-select, 
+select,
 option {
   border-radius: 2px;
   border: 0.5px solid rgba(239, 243, 244, 1);
 }
 
-hr {
+.filter__line {
+  border-top: 1px solid #293035;
   max-width: 1000px;
-  margin: 0 10px;
+  margin: 20px 10px;
 }
 
 .filter span {
   font-weight: 600;
+}
+
+.wishlist {
+  display: inline-flex;
+  width: 1rem;
+  height: 1rem;
+  padding: 0.5rem;
+  border-radius: 75px;
+  background-color: rgba(180, 101, 27, 0.75);
+  border: 1px solid rgba(180, 101, 27, 0.8);
+  position: absolute;
+  right: 9px;
+  top: 5px;
+}
+
+.wishlist i {
+  justify-content: center;
+  align-items: center;
 }

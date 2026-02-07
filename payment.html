@@ -26,25 +26,26 @@
   <body>
     <header>
       <div class="header-bar">
-        <label for="hamburger-menu"><i class="fas fa-bars nav-bar"></i></label>
+        <label for="hamburger-menu" class="header-bar__hamburger"
+          ><i class="fas fa-bars nav-bar"></i
+        ></label>
         <input type="checkbox" id="hamburger-menu" />
-        <nav>
+        <nav class="header-bar__no-show">
           <ul>
-            <!-- <li><a href="index.html">Home</a></li> -->
-            <li><a href="jackets.html">Shop All</a></li>
-            <li><a href="jackets.html">Women</a></li>
-            <li><a href="jackets.html">Men</a></li>
-            <li><a href="wind-jacket.html">Best Sellers</a></li>
-            <li><a href="jackets.html">New Arrivals</a></li>
-            <li><a href="jackets.html">Activities</a></li>
+            <li><a href="jackets.html" class="current">Shop All</a></li>
+            <li><a href="jackets.html" class="current">Women</a></li>
+            <li><a href="jackets.html" class="current">Men</a></li>
+            <li><a href="wind-jacket.html" class="current">Best Sellers</a></li>
+            <li><a href="jackets.html" class="current">New Arrivals</a></li>
+            <li><a href="jackets.html" class="current">Activities</a></li>
           </ul>
         </nav>
         <div class="icon">
-          <label for="search"
+          <label for="search" id="search"
             ><i class="fa-solid fa-magnifying-glass"></i
           ></label>
         </div>
-        <div>
+        <div class="header-bar__logo">
           <a href="index.html"
             ><img
               src="../images/RainyDays_Logo.png"
@@ -53,10 +54,14 @@
           /></a>
         </div>
         <div class="icon">
-          <label for="heart"><i class="fa-regular fa-heart"></i></label>
+          <label for="heart" id="heart"
+            ><i class="fa-regular fa-heart"></i
+          ></label>
         </div>
         <div class="icon">
-          <label for="cart"><i class="fa-solid fa-cart-shopping"></i></label>
+          <label for="cart" id="cart"
+            ><i class="fa-solid fa-cart-shopping"></i
+          ></label>
         </div>
       </div>
       <h1 class="page-title">Checkout</h1>
@@ -217,24 +222,52 @@
       </section>
     </main>
     <footer>
-      <section class="footer-content">
-        <div>
+    <section class="footer-content">
+      <section>
           <a href="index.html"
             ><img
               src="../images/RainyDays_Logo.png"
               class="logo"
               alt="Rainy Days Logo"
           /></a>
-        </div>
-        <div class="footer-content__links">
+      </section>
+      <section class="footer-content__socials">
           <h1>Follow Rainydays</h1>
           <i class="fa-brands fa-square-facebook"></i>
           <i class="fa-brands fa-square-linkedin"></i>
           <i class="fa-brands fa-square-youtube"></i>
           <i class="fa-brands fa-tiktok"></i>
           <i class="fa-brands fa-square-instagram"></i>
+       </section>
+       <section class="footer-content__links">
+        <h1>Customer service</h1>
+          <li>Contact us</li>
+          <li>Faq</li>
+          <li>Shipping</li>
+          <li>Returns</li>
+          <li>Payment</li>
+          <li>Care & Repair</li>
+       </section>
+       <section class="footer-content__links">
+        <h1>About Rainydays</h1>
+          <li>Our history</li>
+          <li>Sustainability</li>
+          <li>Technology and materials</li>
+       </section>
+       <section class="footer-content__links information">
+        <h1>Information</h1>
+          <li>Terms and conditions</li>
+          <li>Sizeguide</li>
+       </section>
+       <div class="footer__line"></div>
+       <section class="newsletter">
+        <h1>Subscribe to pur newsletter!</h1>
+        <div class="newsletter_email">
+          <p>name@example.com</p>
+          <button>Submit</button>
         </div>
-      </section>
+       </section> 
+    </section>
       Copyright &copy; 2026 Rainy Days
     </footer>
   </body>

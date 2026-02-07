@@ -1,16 +1,26 @@
 .specific-product {
-    margin: 0 20px;
+  margin: 0 20px;
 }
 .specific-product__img img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .specific-product__img {
-    max-width: 600px;
-    margin: 0 auto;
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-    text-transform: uppercase;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+
+.specific-product__header {
+  position: relative;
+}
+
+.specific-product__header .wishlist {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
 }
 
 .specific-product__header h1,
@@ -18,73 +28,74 @@ h2,
 h3,
 h4,
 p {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .specific-product__header h1 {
-    font-weight: 700;
-    font-size: 1.8rem;
-    text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-transform: capitalize;
 }
 
 .specific-product__header h2 {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 .colour {
-    width: 20px;
-    height: 20px;
-    background-color: #363636;
-    border-radius: 50%;
-    border: 1px solid rgba(34, 34, 34, 0.50);
-    margin: 10px;    
+  width: 20px;
+  height: 20px;
+  background-color: #363636;
+  border-radius: 50%;
+  border: 1px solid rgba(34, 34, 34, 0.5);
+  margin: 10px;
 }
 
-.specific-product__header h3, h4 {
-    font-weight: 700;
-    font-size: 0.8em;
+.specific-product__header h3,
+h4 {
+  font-weight: 700;
+  font-size: 0.8em;
 }
 
 .size__heading p {
-    font-size: 0.7em;
-    text-transform: lowercase;
-    text-decoration: underline;
+  font-size: 0.7em;
+  text-transform: lowercase;
+  text-decoration: underline;
 }
 
 .size__heading {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .sizes {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .size {
-    border: 3px solid #B4651B;
-    margin: 10px;
-    height: 1.5em;
-    width: 1.5em;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    font-size: 0.9em;
-    border-radius: 50%;
+  border: 3px solid #b4651b;
+  margin: 10px;
+  height: 1.5em;
+  width: 1.5em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 0.9em;
+  border-radius: 50%;
 }
 
 .specific-product__text {
-    font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 20px;
+  font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
 }
 
 .specific-product__text h5 {
-    font-weight: 700;
-    font-size: 1.1rem;
+  font-weight: 700;
+  font-size: 1.1rem;
 }
 
 .specific-product__text p {
-    font-weight: 400;
-    margin: 0;
+  font-weight: 400;
+  margin: 0;
 }

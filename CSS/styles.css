@@ -118,13 +118,13 @@ a {
   border-radius: 2px;
 }
 
-.breadcrumbs div{
-    max-width: 1000px;
-    margin: 5px;
-    margin-bottom: 20px;
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
+.breadcrumbs div {
+  max-width: 1000px;
+  margin: 5px;
+  margin-bottom: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .fa-circle {
@@ -132,11 +132,11 @@ a {
 }
 
 .breadcrumbs a {
-    text-decoration: none;
-    color: #222;
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-    text-transform: capitalize;
-    font-size: 0.9rem;
+  text-decoration: none;
+  color: #222;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+  font-size: 0.9rem;
 }
 
 /* ------ Home Page ------ */
@@ -205,8 +205,8 @@ hr-index {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 600px;
-  gap: 20px;
-  margin: 10px 10px;
+  gap: 30px;
+  margin: 20px 10px;
 }
 
 .featured__card {
@@ -225,6 +225,7 @@ hr-index {
   padding: 10px;
   grid-column: span 2;
   margin-bottom: 5px;
+  position: relative;
 }
 
 .featured__img-small {
@@ -235,7 +236,8 @@ hr-index {
   width: 100%;
 }
 
-.featured__card h3, .price {
+.featured__card h3,
+.price {
   margin: 0 10px;
   color: #222;
   font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
@@ -247,8 +249,8 @@ hr-index {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  border: 1px solid rgba(34, 34, 34, 0.50);
-  margin: 5px 10px; 
+  border: 1px solid rgba(34, 34, 34, 0.5);
+  margin: 5px 10px;
   justify-self: right;
   align-self: center;
 }
@@ -326,41 +328,49 @@ p {
 }
 
 .activity__card {
-    width: 240px;
-    height: 160px;
-    border: 2px solid #0a3641 30%;
-    border-radius: 2px;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 240px;
+  height: 160px;
+  border: 2px solid #0a3641 30%;
+  border-radius: 2px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .activity__card h1 {
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .activity__hiking {
-  background: linear-gradient(rgba(10, 54, 65, 0.2), rgba(10, 54, 65, 0.2)), url(/images/man-hiking.jpg) no-repeat;
+  background:
+    linear-gradient(rgba(10, 54, 65, 0.2), rgba(10, 54, 65, 0.2)),
+    url(/images/man-hiking.jpg) no-repeat;
 }
 
 .activity__skiing {
-  background: linear-gradient(rgba(10, 54, 65, 0.2), rgba(10, 54, 65, 0.2)), url(/images/man\ downhill\ skiing.jpg) no-repeat;
+  background:
+    linear-gradient(rgba(10, 54, 65, 0.2), rgba(10, 54, 65, 0.2)),
+    url(/images/man\ downhill\ skiing.jpg) no-repeat;
 }
 
 .activity__camping {
-  background: linear-gradient(rgba(10, 54, 65, 0.2), rgba(10, 54, 65, 0.2)), url(/images/camping-by-the-lake.jpg) no-repeat;
+  background:
+    linear-gradient(rgba(10, 54, 65, 0.2), rgba(10, 54, 65, 0.2)),
+    url(/images/camping-by-the-lake.jpg) no-repeat;
 }
 
-.activity__canoeing{
-  background: linear-gradient(rgba(10, 54, 65, 0.2), rgba(10, 54, 65, 0.2)), url(/images/canoeing.jpg) no-repeat;
+.activity__canoeing {
+  background:
+    linear-gradient(rgba(10, 54, 65, 0.2), rgba(10, 54, 65, 0.2)),
+    url(/images/canoeing.jpg) no-repeat;
 }
 
-.activity__hiking, 
-.activity__skiing, 
-.activity__camping, 
+.activity__hiking,
+.activity__skiing,
+.activity__camping,
 .activity__canoeing {
   background-position: center;
   background-size: cover;
@@ -370,7 +380,7 @@ p {
 footer {
   margin-top: 50px;
   text-align: center;
-  background-color: #CDD7D9;
+  background-color: #cdd7d9;
   padding: 40px 0;
 }
 
@@ -411,7 +421,7 @@ footer i {
   font-size: 1.5em;
 }
 
-.line {
+.footer__line {
   display: none;
 }
 
@@ -430,7 +440,7 @@ footer i {
 .newsletter_email p {
   font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 400;
-  padding: 5px 10px;;
+  padding: 5px 10px;
 }
 
 button {
@@ -438,5 +448,4 @@ button {
   border: rgba(250, 254, 255, 0.8);
   border-radius: 2px;
   padding: 5px 20px;
-
 }
