@@ -139,9 +139,9 @@ a {
 }
 
 /* ------ Home Page ------ */
-.hero img {
+.hero {
   background: linear-gradient(to top, rgba(255, 255, 255, 0.3), transparent);
-  background-image: URL(images/man-on-mountaintop.JPG) no-repeat;
+  background-image: url(../images/man-on-mountaintop.JPG) no-repeat;
   background-position: 10% 70%;
   min-height: 30vh;
   background-size: cover;
