@@ -357,6 +357,67 @@ p {
 
 .activity {
   max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.activity-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.activity__card {
+  position: relative;
+  overflow: hidden;
+  width: 220px;
+  height: 150px;
+  border-radius: 2px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.activity__card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.activity__card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 54, 65, 0.2);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease;
+}
+
+.activity__card .overlay-text {
+  color: #fff;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.activity__card:hover img {
+  transform: scale(1.1);
+}
+
+.activity__card:hover .overlay {
+  opacity: 1;
+}
+
+/*.activity {
+  max-width: 1000px;
   margin: 10px auto;
   display: grid;
   grid-template-columns: 1fr;
@@ -373,36 +434,18 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(rgba(10, 54, 65, 0.2), rgba(10, 54, 65, 0.2));
+  object-fit: cover;
+}
+
+.activity__card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .activity__card h1 {
-  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-.activity__hiking {
-  background:
-    linear-gradient(rgba(10, 54, 65, 0.2), rgba(10, 54, 65, 0.2)),
-    url(/images/man-hiking.jpg) no-repeat;
-}
-
-.activity__skiing {
-  background:
-    linear-gradient(rgba(10, 54, 65, 0.2), rgba(10, 54, 65, 0.2)),
-    url(/images/man\ downhill\ skiing.jpg) no-repeat;
-}
-
-.activity__camping {
-  background:
-    linear-gradient(rgba(10, 54, 65, 0.2), rgba(10, 54, 65, 0.2)),
-    url(/images/camping-by-the-lake.jpg) no-repeat;
-}
-
-.activity__canoeing {
-  background:
-    linear-gradient(rgba(10, 54, 65, 0.2), rgba(10, 54, 65, 0.2)),
-    url(/images/canoeing.jpg) no-repeat;
+  
 }
 
 .activity__hiking,
@@ -411,7 +454,7 @@ p {
 .activity__canoeing {
   background-position: center;
   background-size: cover;
-}
+}*/
 
 /* ------ Footer ------ */
 footer {
