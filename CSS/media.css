@@ -80,7 +80,6 @@
   .hero__content {
     flex-wrap: wrap;
     flex-direction: column;
-    margin-left: 50px;
   }
 
   .hero__content h1 {
