@@ -139,25 +139,6 @@ a {
 }
 
 /* ------ Home Page ------ */
-/*.hero {
-  background: linear-gradient(to top, rgba(255, 255, 255, 0.3), transparent);
-  background-image: url(./images/man-on-mountaintop.JPG) no-repeat;
-  background-position: 10% 70%;
-  min-height: 30vh;
-  background-size: cover;
-  width: 100%;
-  position: relative;
-}
-
-.hero__content {
-  max-width: 1000px;
-  margin: 0 auto;
-  min-width: 210px;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  top: 10%;
-}*/
 .hero {
   position: relative;
   min-height: 30vh;
