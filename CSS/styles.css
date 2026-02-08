@@ -310,6 +310,8 @@ p {
 .new-collection {
   position: relative;
   min-height: 20vh;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .new-collection__img {
@@ -324,18 +326,9 @@ p {
   position: absolute;
   top: 10%;
   right: 5%;
-  max-width: 1000px;
-  margin: 0 auto;
   text-align: right;
   color: #fff;
 }
-
-/*.new-collection {
-  background:
-    no-repeat,
-    linear-gradient(rgba(239, 243, 244, 0.2), rgba(239, 243, 244, 0.2)),
-    url(/images/woman\ downhill\ skiing.jpg);
-}*/
 
 .new-collection__content h1 {
   font-family: "Roboto Serif", Verdana, Geneva, Tahoma, sans-serif;
@@ -416,46 +409,6 @@ p {
 .activity__card:hover .overlay {
   opacity: 1;
 }
-
-/*.activity {
-  max-width: 1000px;
-  margin: 10px auto;
-  display: grid;
-  grid-template-columns: 1fr;
-  place-items: center;
-  gap: 15px;
-}
-
-.activity__card {
-  width: 240px;
-  height: 160px;
-  border: 2px solid #0a3641 30%;
-  border-radius: 2px;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(rgba(10, 54, 65, 0.2), rgba(10, 54, 65, 0.2));
-  object-fit: cover;
-}
-
-.activity__card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.activity__card h1 {
-  
-}
-
-.activity__hiking,
-.activity__skiing,
-.activity__camping,
-.activity__canoeing {
-  background-position: center;
-  background-size: cover;
-}*/
 
 /* ------ Footer ------ */
 footer {
