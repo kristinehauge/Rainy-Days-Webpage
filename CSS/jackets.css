@@ -1,7 +1,14 @@
 .hero-jackets {
   position: relative;
   height: 20vh;
-  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-jackets::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 54, 65, 0.2);
+  z-index: 1;
 }
 
 .hero-jackets__img {
@@ -9,6 +16,7 @@
   height: 100%;
   object-fit: cover;
   object-position: 50% 70%;
+  display: block;
 }
 
 .hero-jackets h1 {
@@ -16,6 +24,7 @@
   top: 10%;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 2;
   min-width: 300px;
   font-family: "Roboto Serif", Verdana, Geneva, Tahoma, sans-serif;
   text-transform: uppercase;
