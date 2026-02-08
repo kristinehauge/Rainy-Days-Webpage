@@ -150,16 +150,15 @@
   .delivery,
   .email,
   .shipping-info,
-  .payment,
-  .order-summary:not(confirmation.html) {
+  .payment {
     margin: 20px 0;
   }
 
-  .order-summary {
-    padding: 20px;
-  }
-
   /* ------ confirmation ------ */
+  .order-summary {
+    max-width: 1000px;
+    margin: 20px auto;
+  }
 }
 
 @media (min-width: 1000px) {

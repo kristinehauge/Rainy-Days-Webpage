@@ -35,10 +35,6 @@
   min-width: 300px;
 }
 
-main {
-  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-}
-
 header {
   display: flex;
   align-items: center;
@@ -70,10 +66,9 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-  margin: 20px 20px;
-  padding: 20px 20px;
-  max-width: 400px;
-  margin: 10px 10px;
+  width: 300px;
+  padding: 20px;
+  margin: 0 auto;
 }
 
 .order-summary__img {
